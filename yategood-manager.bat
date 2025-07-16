@@ -20,7 +20,7 @@ set COLOR_CYAN=[36m
 :MENU
 cls
 echo %COLOR_CYAN%======================================%COLOR_RESET%
-echo %COLOR_CYAN% Yategood PoC ADB TOOL MENU v. 1.0    %COLOR_RESET%
+echo %COLOR_CYAN% Yategood PoC ADB TOOL MENU v. 1.0.1  %COLOR_RESET%
 echo %COLOR_CYAN% by: Kris O. [github.com/kesongblack] %COLOR_RESET%
 echo %COLOR_CYAN%======================================%COLOR_RESET%
 echo.

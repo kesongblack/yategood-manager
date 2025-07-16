@@ -1,4 +1,4 @@
-# yategood-manager
+# yategood-manager [![](https://img.shields.io/github/v/release/kesongblack/yategood-manager?label=)](https://github.com/kesongblack/yategood-manager/releases/latest)
 
 A simple batch script to manage the YateGood service.
 

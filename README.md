@@ -27,7 +27,7 @@ Debugging and modifying devices using ADB tools can potentially void warranties,
 - Please download the latest zip file here:
     [![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue?logo=github)](https://github.com/kesongblack/yategood-manager/releases/download/1.0.1/yategood-manager.zip)
 - Extract the zip file inside the **📁platform-tools** folder
-- Open **yategood-manager.bat**
+- Open **🤖yategood-manager.bat**
 
 ## Available Options
 

@@ -15,7 +15,7 @@ This program focuses on the Zello application, but revisions for other applicati
 ## Usage
 
 - Please download the latest release of the zip file here:
-[![Download Latest Release](https://img.shields.io/github/v/release/yourusername/yategood-manager?label=Download%20Latest%20Release&style=for-the-badge)](https://github.com/yourusername/yategood-manager/releases/latest)
+[![Download Latest Release](https://img.shields.io/github/v/release/kesongblack/yategood-manager?label=Latest%20Release)](https://github.com/kesongblack/yategood-manager/releases/latest)
 
 - Extract the zip file inside the **📁platform-tools** folder
 - Open **yategood-manager.bat**

@@ -27,7 +27,7 @@ echo.
 echo %COLOR_YELLOW%IMPORTANT NOTE:
 echo %COLOR_YELLOW%Before running this program, please ensure 
 echo %COLOR_YELLOW%that the device's Developer's Option is ON.
-echo %COLOR_YELLOW%To turn it on, go to Settings > About Radio
+echo %COLOR_YELLOW%To turn it on, go to Settings -- About Radio
 echo %COLOR_YELLOW%and click the Build Number SEVEN times
 echo %COLOR_YELLOW%until it says "You are a developer!"
 echo.

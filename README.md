@@ -6,6 +6,11 @@ This project aims to centralize the tools in configuring the Yategood Push-to-ta
 
 This program focuses on the Zello application, but revisions for other applications are welcome.
 
+
+## ⚠️Disclaimer⚠️
+
+Debugging and modifying devices using ADB tools can potentially void warranties, cause data loss, or render devices unusable if not done correctly. Use this script and ADB commands at your own risk. Always ensure you have proper backups and understand the implications of each action. The author is not responsible for any damage or issues resulting from the use of this tool.
+
 ## Requirements
 
 - Windows 10/11 
@@ -13,11 +18,14 @@ This program focuses on the Zello application, but revisions for other applicati
 - ...and of course, a Yategood PoC radio.
 
 ## Usage
+### 1. Activate Developer Tools in your Yategood PoC Radio:
+  - Go to Settings > About Radio/Device
+  - Find Build Number by pressing down
+  - Click the Build Number SEVEN (7) times or until "You are a developer!" will show
 
-- Please download the latest release of the zip file here:
-  
+### 2. Prepare the ADB Tools in your Computer/Laptop
+- Please download the latest release of the zip file by clicking the button below:
     [![Download Latest Release](https://img.shields.io/github/v/release/kesongblack/yategood-manager?label=Latest%20Release)](https://github.com/kesongblack/yategood-manager/releases/latest)
-
 - Extract the zip file inside the **📁platform-tools** folder
 - Open **yategood-manager.bat**
 
@@ -31,7 +39,7 @@ The batch script provides the following interactive menu options:
 2. **INSTALL APKS FROM "APP" FOLDER**
    - Installs all APK files found in the `app` directory (included in the zip file) to the connected device using ADB.
    
-   **KNOWN BUG:** The script will terminate after running this option, so it needs to be opened once again after installing. A fix is still ongoing.
+   **KNOWN BUG:** The script will terminate after running this option, so it needs to be opened once again after installing. 
 
 3. **SEND TEXT INPUT TO ZELLO**
    - Prompts the user to enter text, which is then sent to the Zello app on the device using ADB. Spaces in the input are replaced with underscores. The user should manually place the cursor in the desired field in Zello before running this option.
@@ -41,7 +49,3 @@ The batch script provides the following interactive menu options:
 
 5. **EXIT**
    - Exits the script.
-
-## Disclaimer
-
-**Warning:** Debugging and modifying devices using ADB tools can potentially void warranties, cause data loss, or render devices unusable if not done correctly. Use this script and ADB commands at your own risk. Always ensure you have proper backups and understand the implications of each action. The authors are not responsible for any damage or issues resulting from the use of this tool.
